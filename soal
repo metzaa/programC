@@ -1,0 +1,64 @@
+1. Program LuasSegitiga
+Deklarasi:
+   var alas, tinggi, luas:real;
+Deskripsi Algoritma:
+   read(alas);
+   read(tinggi);
+   luas<--0.5*alas*tinggi;
+Output:
+   write(luas);
+end
+
+2.  Model SDLC yang digunakan adalah model waterfall. Dalam model ini, pengembangan sistem dilakukan secara berurutan, dan tahap berikutnya dimulai setelah tahap sebelumnya sudah selesai. Seperti dalam kasus ini, dimulai dari tahap pengumpulan data melalui (Observasi, metode wawancara, dan metode pustaka)->perancangan sistem/desain->implementasi kode->pengujian->penerapan->maintenance
+
+3. 
+•Running(run) adalah perintah yang digunakan untuk menjalankan/mengeksekusi kode program yang telah dibuat sebelumnya sehingga menghasilkan output
+• Debugging (debug) adalah proses menguji/mengidentifikasi kode program untuk menemukan kesalahan atau bug agar dapat memperbaiki nya sehingga program yang dibuat dapat berjalan sesuai yang diharapkan
+• Membuat executable file adalah proses mengubah/mengkompilasi kode menjadi file .exe yang dapat digunakan pada sistem operasi (komputer) secara langsung tanpa perlu dikompilasi lagi 
+
+4. Mengatasi source code yang gagal dieksekusi:
+1) Membaca pesan kesalahan pada terminal/log
+2) Memahami pesan kesalahan yang ditampilkan
+3) Mencari baris kode yang menyebabkan kesalahan
+4) Memperbaiki kesalahan dengan mengubah/menambahkan kode untuk mengatasi masalah
+5) Mengulangi proses eksekusi kode program untuk memastikan kesalahan telah teratasi 
+
+5. Manfaat menggunakan kode guidelines:
+-Memudahkan dalam pemeliharaan kode
+-Membuat dokumentasi kode lebih mudah dibaca dan di pahami
+-Membuat kode lebih efisien dan terstruktur 
+-Membuat kode lebih konsisten
+-Mempermudah dalam proses debugging
+-Memudahkan kolaborasi antara tim pengembang (pembuatan& maintenance program)
+
+6.
+•Untuk variabel input menggunakan tipe data Integer (bilangan bulat)
+•Untuk variabel output menggunakan tipe data Real untuk angka desimal (pecahan)
+
+7. Parameter yang terdapat pada program tersebut adalah:
+•Panjang->Menyimpan nilai panjang (tipe data Integer)
+•Lebar->Menyimpan nilai lebar (tipe data Integer)
+
+8. Dengan mengikuti algoritma, kita dapat:
+-Membuat kode program menjadi lebih terstruktur dan konsisten
+-Dapat mengoptimalkan waktu dalam proses pengembangan
+-Membantu dalam mengatur kode secara sistematis
+-Menghasilkan kode yang mudah dibaca dan dipahami
+-Membantu dalam pengujian dan debugging kode program 
+-Memudahkan dalam perencanaan dan implementasi program
+-Mengurangi kesalahan logika
+
+9.Mengatasi program yang tidak lulus build:
+1) Memeriksa pesan kesalahan yang dihasilkan oleh proses build
+2) Mencari baris kode program yang menghasilkan kesalahan
+3) Memperbaiki kesalahan pada kode program
+4) Menjalankan kembali proses build untuk memeriksa apakah masalah telah teratasi
+
+10. Manfaat menguji dengan tes uji coba pemrograman:
+1. Mempercepat waktu pengujian
+2. Meminimalkan kesalahan manusia (human error)
+3. Memastikan hasil pengujian konsisten/akurat
+4. Bisa mencatat hasil pengujian secara terperinci 
+5. Meningkatkan cakupan pengujian
+6. Dapat mendeteksi bug sebelumnya
+7. Meningkatkan produktivitas pengembang
