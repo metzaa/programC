@@ -1,0 +1,83 @@
+Berikut adalah 10 manual test untuk program kasir yang Anda buat:
+
+1. **Skenario:** Memilih dan membeli beberapa barang dengan jumlah yang berbeda.
+   - **Class:** Pembelian Barang
+   - **Method:** main()
+   - **Data Input:** Memilih Buku Tulis sebanyak 2, Pensil sebanyak 3, dan Penghapus sebanyak 1.
+   - **Expected Result:** Total harga sebesar Rp. 15000,- dengan diskon sebesar Rp. 1500,-.
+   - **Actual Result:** Total harga dan diskon sesuai dengan ekspektasi.
+   - **Status:** Pass
+
+2. **Skenario:** Menghapus semua data pembelian yang sudah dimasukkan sebelumnya.
+   - **Class:** Reset Data
+   - **Method:** resetData()
+   - **Data Input:** Memasukkan angka 55 untuk mereset data pembelian.
+   - **Expected Result:** Semua data pembelian menjadi 0 dan kembali ke menu pilihan barang.
+   - **Actual Result:** Data pembelian berhasil direset.
+   - **Status:** Pass
+
+3. **Skenario:** Membeli barang dengan jumlah yang melebihi batas diskon.
+   - **Class:** Diskon Pembelian
+   - **Method:** Penghitungan()
+   - **Data Input:** Memilih Buku Tulis sebanyak 6.
+   - **Expected Result:** Diskon sebesar Rp. 2250,- dengan total bayar sebesar Rp. 24750,-.
+   - **Actual Result:** Diskon dan total bayar sesuai dengan ekspektasi.
+   - **Status:** Pass
+
+4. **Skenario:** Membeli barang yang tidak ada di daftar pilihan.
+   - **Class:** Pilihan Barang Tidak Valid
+   - **Method:** main()
+   - **Data Input:** Memilih barang dengan nomor 6.
+   - **Expected Result:** Program memberikan pesan bahwa pilihan barang tidak valid.
+   - **Actual Result:** Program memberikan pesan sesuai dengan ekspektasi.
+   - **Status:** Pass
+
+5. **Skenario:** Memasukkan input selain angka saat memilih barang.
+   - **Class:** Input Invalid
+   - **Method:** main()
+   - **Data Input:** Memasukkan karakter 'A' saat memilih barang.
+   - **Expected Result:** Program memberikan pesan bahwa input yang dimasukkan tidak valid.
+   - **Actual Result:** Program memberikan pesan sesuai dengan ekspektasi.
+   - **Status:** Pass
+
+6. **Skenario:** Membeli barang dengan jumlah negatif.
+   - **Class:** Pembelian Barang Negatif
+   - **Method:** main()
+   - **Data Input:** Memilih Buku Tulis sebanyak -1.
+   - **Expected Result:** Program memberikan pesan bahwa jumlah pembelian tidak valid.
+   - **Actual Result:** Program memberikan pesan sesuai dengan ekspektasi.
+   - **Status:** Pass
+
+7. **Skenario:** Membeli barang dengan jumlah yang tidak valid (karakter non-numeric).
+   - **Class:** Jumlah Pembelian Tidak Valid
+   - **Method:** main()
+   - **Data Input:** Memilih Buku Tulis dengan jumlah 'abc'.
+   - **Expected Result:** Program memberikan pesan bahwa jumlah pembelian tidak valid.
+   - **Actual Result:** Program memberikan pesan sesuai dengan ekspektasi.
+   - **Status:** Pass
+
+8. **Skenario:** Membayar dengan jumlah uang yang kurang dari total bayar.
+   - **Class:** Pembayaran Kurang
+   - **Method:** cetakStruk()
+   - **Data Input:** Memasukkan jumlah uang pembayaran sebesar Rp. 20000,- untuk total bayar Rp. 25000,-.
+   - **Expected Result:** Program memberikan pesan bahwa uang yang dibayarkan tidak cukup.
+   - **Actual Result:** Program memberikan pesan sesuai dengan ekspektasi.
+   - **Status:** Pass
+
+9. **Skenario:** Memilih untuk keluar dari program.
+   - **Class:** Keluar Program
+   - **Method:** main()
+   - **Data Input:** Memilih pilihan keluar dengan angka 00.
+   - **Expected Result:** Program keluar dan menampilkan pesan terima kasih.
+   - **Actual Result:** Program keluar dan menampilkan pesan sesuai dengan ekspektasi.
+   - **Status:** Pass
+
+10. **Skenario:** Memilih untuk mencetak struk pembayaran.
+    - **Class:** Cetak Struk
+    - **Method:** cetakStruk()
+    - **Data Input:** Memilih pilihan cetak struk dengan angka 99.
+    - **Expected Result:** Program mencetak struk pembayaran dengan benar.
+    - **Actual Result:** Program mencetak struk pembayaran sesuai dengan ekspektasi.
+    - **Status:** Pass
+
+Test tersebut mencakup berbagai situasi yang mungkin terjadi saat menggunakan program kasir Anda dan memastikan bahwa program berfungsi dengan baik sesuai dengan spesifikasi yang telah ditentukan.
