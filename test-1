@@ -1,0 +1,17 @@
+Proses pengujian program dilakukan dengan langkah-langkah berikut:
+
+1. Membuat kode program: Tahap pertama adalah membuat kode program yang akan diuji. 
+Kode program ini harus mencakup semua fitur dan fungsionalitas yang ingin diuji.
+
+2. Membuat manual testing: Selanjutnya, kita membuat manual testing yang berisi skenario pengujian, 
+kelas atau metode yang diuji, data input yang digunakan, hasil yang diharapkan, hasil aktual dari kode program, dan status pengujian (berhasil atau gagal).
+
+3. Melakukan pengujian dengan menjalankan kode program: Setelah kode program dan manual testing siap, 
+kita menjalankan kode program dengan menggunakan data input yang telah ditentukan dalam manual testing.
+
+4. Sesuaikan dan bandingkan dengan manual testing yang telah dibuat: Hasil dari kode program kemudian
+dibandingkan dengan hasil yang diharapkan yang telah ditentukan dalam manual testing. Jika hasilnya sesuai, maka pengujian dianggap berhasil.
+
+5. Mengidentifikasi kesalahan atau bug yang mungkin saja terjadi: Jika terdapat perbedaan antara hasil aktual dan hasil yang diharapkan,
+maka kita mengidentifikasi kesalahan atau bug yang mungkin terjadi dalam kode program. Selanjutnya, kode program diperbaiki dan pengujian dilakukan kembali hingga hasilnya sesuai dengan yang diharapkan.
+
